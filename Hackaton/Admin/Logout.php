@@ -1,0 +1,9 @@
+<?php 
+
+session_start();
+session_destroy();
+
+		echo '<script>alert("Successfull")</script>';
+		echo '<script>window.location="../index.php"</script>';
+
+?>
